@@ -1,5 +1,6 @@
 package codingwithmitch.com.databindinggettingstarted;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -34,7 +35,8 @@ public class ChooseQuantityDialog extends DialogFragment {
         @Override
         public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
             Log.d(TAG, "onItemSelected: selected: " + adapterView.getItemAtPosition(i));
-
+            IMainActivity iMainActivity = (IMainActivity)getActivity();
+            iMainActivity.setQuantity(Integer.parseInt((String)adapterView.getItemAtPosition(i)));
             getDialog().dismiss();
         }
     };

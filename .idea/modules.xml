@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DataBindingGettingStarted.iml" filepath="$PROJECT_DIR$/DataBindingGettingStarted.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/DataBindingGettingStarted-app.iml" filepath="$PROJECT_DIR$/app/DataBindingGettingStarted-app.iml" group="DataBindingGettingStarted/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/updatedGithub-DataBindingGettingStarted.iml" filepath="$PROJECT_DIR$/updatedGithub-DataBindingGettingStarted.iml" group="DataBindingGettingStarted" />
     </modules>
   </component>
 </project>
